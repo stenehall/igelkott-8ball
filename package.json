@@ -1,0 +1,15 @@
+{
+  "name": "igelkott-8ball",
+  "description": "A very simple Magic 8 ball plugin for Igelkott",
+  "version": "0.1.0",
+  "main": "igelkott-8ball.js",
+  "dependencies": { },
+  "devDependencies": {
+    "chai": "~1.4.2",
+    "mocha": "1.3.x",
+    "igelkott": "*"
+  },
+  "scripts": {
+    "test": "mocha -R spec --recursive"
+  }
+}
